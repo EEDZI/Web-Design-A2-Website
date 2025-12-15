@@ -1,0 +1,25 @@
+/* scroll animation - inital stat and viewport visiblity */
+.scroll-fade-up {
+    opacity: 0;
+    transform: translateY(200px);
+    transition: all 1s ease-out;
+}
+
+.scroll-fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animate-soft-bounce {
+  animation: soft-bounce 2s ease-in-out infinite;
+}
+
+/* element soft bounce */
+@keyframes soft-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
