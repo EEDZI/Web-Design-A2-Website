@@ -1,3 +1,16 @@
+/* Colors */
+.bg-light-brown {
+    background-color: #d9d3c6;
+}
+
+.bg-dark-brown {
+    background-color: #886551;
+}
+
+.text-dark-brown {
+    color: #886551;
+}
+
 /* scroll animation - inital stat and viewport visiblity */
 .scroll-fade-up {
     opacity: 0;
@@ -33,6 +46,7 @@
     font-size: 2.25rem;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 2rem;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .timetable-slot-l {
@@ -43,4 +57,5 @@
     font-size: 2.25rem;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 2rem;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
 }
