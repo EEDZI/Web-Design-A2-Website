@@ -59,20 +59,21 @@
     </aside>
 
     <main>
-        <section class="mx-8">
+        <!-- Title -->
+        <section class="bg-light-brown py-32 text-center">
+            <h1 class="text-7xl font-thin text-[#3A2A22]">Timetable</h1>
+            <hr class="w-24 h-[2px] bg-[#886551] mx-auto my-6">
+            <p class="text-2xl text-[#3A2A22] mt-4">Find the perfect class for you</p>
+        </section>
+
+        <section class="">
             <section class="max-w-[2000px] mx-auto px-6 py-16">
-            <!-- Title -->
-            <h2 class="text-6xl font-thin mb-24">
-                Timetable
-                <hr class="h-[1px] w-72 mt-2    ">
-            </h2>
             <!-- Scroll wrapper (important for mobile) -->
             <div class="overflow-x-auto">
                 <div class="min-w-[1500px] space-y-6">
-
                 <!-- TIME HEADER -->
-                <div class="grid grid-cols-8 gap-4 text-center text-4xl font-bold text-gray-600">
-                    <div></div>
+                <div class="grid grid-cols-8 gap-4 text-center text-4xl font-bold text-gray-600 font-extrabold">
+                    <div>Day</div>
                     <div>6 - 7:30</div>
                     <div>8 - 10</div>
                     <div>10:30 - 12</div>
@@ -81,19 +82,19 @@
                     <div>17:30 - 19</div>
                     <div>19 - 21</div>
                 </div>
-
+                <hr class="bg-black w-full h-[1px]">
                 <!-- monday -->
                 <div class="grid grid-cols-8 gap-4 items-center">
                     <div class="bg-[#886551] text-white text-4xl h-32 rounded-tl-2xl rounded-br-4xl font-medium flex items-center justify-center">
                         Monday
                     </div>
-                    <div class="timetable-slot-d">Jiu-Jitsu</div>
-                    <div class="timetable-slot-l">Muay Thai</div>
-                    <div class="timetable-slot-d">Private Tuition</div>
-                    <div class="timetable-slot-l">Open Mat</div>
-                    <div class="timetable-slot-d">Kids Jiu-Jitsu</div>
-                    <div class="timetable-slot-l">Karate</div>
-                    <div class="timetable-slot-d">Jiu-Jitsu</div>
+                    <div class="timetable-slot-d clip-diagonal">Jiu-Jitsu</div>
+                    <div class="timetable-slot-l clip-diagonal">Muay Thai</div>
+                    <div class="timetable-slot-d clip-diagonal">Private Tuition</div>
+                    <div class="timetable-slot-l clip-diagonal">Open Mat</div>
+                    <div class="timetable-slot-d clip-diagonal">Kids Jiu-Jitsu</div>
+                    <div class="timetable-slot-l clip-diagonal">Karate</div>
+                    <div class="timetable-slot-d clip-diagonal">Jiu-Jitsu</div>
                 </div>
 
                 <!-- tuesday -->
@@ -101,13 +102,13 @@
                     <div class="bg-[#886551] text-white text-4xl h-32 rounded-tl-2xl rounded-br-4xl font-medium flex items-center justify-center">
                         Tuesday
                     </div>
-                    <div class="timetable-slot-d">Jiu-Jitsu</div>
-                    <div class="timetable-slot-l">Muay Thai</div>
-                    <div class="timetable-slot-d">Private Tuition</div>
-                    <div class="timetable-slot-l">Open Mat</div>
-                    <div class="timetable-slot-d">Kids Jiu-Jitsu</div>
-                    <div class="timetable-slot-l">Karate</div>
-                    <div class="timetable-slot-d">Jiu-Jitsu</div>
+                    <div class="timetable-slot-d clip-diagonal">Karate</div>
+                    <div class="timetable-slot-l clip-diagonal">Private Tuition</div>
+                    <div class="timetable-slot-d clip-diagonal">Private Tuition</div>
+                    <div class="timetable-slot-l clip-diagonal">Open Mat</div>
+                    <div class="timetable-slot-d clip-diagonal">Kids Judo</div>
+                    <div class="timetable-slot-l clip-diagonal">Muay Thai</div>
+                    <div class="timetable-slot-d clip-diagonal">Judo</div>
                 </div>
 
                 <!-- wednesday -->
@@ -115,13 +116,13 @@
                     <div class="bg-[#886551] text-white text-4xl h-32 rounded-tl-2xl rounded-br-4xl font-medium flex items-center justify-center">
                         Wednesday
                     </div>
-                    <div class="timetable-slot-d">Jiu-Jitsu</div>
-                    <div class="timetable-slot-l">Muay Thai</div>
-                    <div class="timetable-slot-d">Private Tuition</div>
-                    <div class="timetable-slot-l">Open Mat</div>
-                    <div class="timetable-slot-d">Kids Jiu-Jitsu</div>
-                    <div class="timetable-slot-l">Karate</div>
-                    <div class="timetable-slot-d">Jiu-Jitsu</div>
+                    <div class="timetable-slot-d clip-diagonal">Judo</div>
+                    <div class="timetable-slot-l clip-diagonal">Private tuition</div>
+                    <div class="timetable-slot-d clip-diagonal">Private Tuition</div>
+                    <div class="timetable-slot-l clip-diagonal">Open Mat</div>
+                    <div class="timetable-slot-d clip-diagonal">Kids Karate</div>
+                    <div class="timetable-slot-l clip-diagonal">Judo</div>
+                    <div class="timetable-slot-d clip-diagonal">Jiu-Jitsu</div>
                 </div>
 
                 <!-- thursday -->
@@ -129,13 +130,13 @@
                     <div class="bg-[#886551] text-white text-4xl h-32 rounded-tl-2xl rounded-br-4xl font-medium flex items-center justify-center">
                         Thursday
                     </div>
-                    <div class="timetable-slot-d">Jiu-Jitsu</div>
-                    <div class="timetable-slot-l">Muay Thai</div>
-                    <div class="timetable-slot-d">Private Tuition</div>
-                    <div class="timetable-slot-l">Open Mat</div>
-                    <div class="timetable-slot-d">Kids Jiu-Jitsu</div>
-                    <div class="timetable-slot-l">Karate</div>
-                    <div class="timetable-slot-d">Jiu-Jitsu</div>
+                    <div class="timetable-slot-d clip-diagonal">Jiu-Jitsu</div>
+                    <div class="timetable-slot-l clip-diagonal">Private Tuition</div>
+                    <div class="timetable-slot-d clip-diagonal">Private Tuition</div>
+                    <div class="timetable-slot-l clip-diagonal">Open Mat</div>
+                    <div class="timetable-slot-d clip-diagonal">Kids Jiu-Jitsu</div>
+                    <div class="timetable-slot-l clip-diagonal">Jiu-Jitsu</div>
+                    <div class="timetable-slot-d clip-diagonal">Karate</div>
                 </div>
 
                 <!-- friday -->
@@ -143,13 +144,13 @@
                     <div class="bg-[#886551] text-white text-4xl h-32 rounded-tl-2xl rounded-br-4xl font-medium flex items-center justify-center">
                         Friday
                     </div>
-                    <div class="timetable-slot-d">Jiu-Jitsu</div>
-                    <div class="timetable-slot-l">Muay Thai</div>
-                    <div class="timetable-slot-d">Private Tuition</div>
-                    <div class="timetable-slot-l">Open Mat</div>
-                    <div class="timetable-slot-d">Kids Jiu-Jitsu</div>
-                    <div class="timetable-slot-l">Karate</div>
-                    <div class="timetable-slot-d">Jiu-Jitsu</div>
+                    <div class="timetable-slot-d clip-diagonal">Muay Thai</div>
+                    <div class="timetable-slot-l clip-diagonal">Jui-Jitsu</div>
+                    <div class="timetable-slot-d clip-diagonal">Private Tuition</div>
+                    <div class="timetable-slot-l clip-diagonal">Open Mat</div>
+                    <div class="timetable-slot-d clip-diagonal">Kids Judo</div>
+                    <div class="timetable-slot-l clip-diagonal">Muay Thai</div>
+                    <div class="timetable-slot-d clip-diagonal">Private Tuition</div>
                 </div>
 
                 <!-- saturday -->
@@ -157,13 +158,13 @@
                     <div class="bg-[#886551] text-white text-4xl h-32 rounded-tl-2xl rounded-br-4xl font-medium flex items-center justify-center">
                         Saturday
                     </div>
-                    <div class="timetable-slot-d">Jiu-Jitsu</div>
-                    <div class="timetable-slot-l">Muay Thai</div>
-                    <div class="timetable-slot-d">Private Tuition</div>
-                    <div class="timetable-slot-l">Open Mat</div>
-                    <div class="timetable-slot-d">Kids Jiu-Jitsu</div>
-                    <div class="timetable-slot-l">Karate</div>
-                    <div class="timetable-slot-d">Jiu-Jitsu</div>
+                    <div class="timetable-slot-fill clip-diagonal font-bold"> No Classes</div>
+                    <div class="timetable-slot-l clip-diagonal">Private Tuition</div>
+                    <div class="timetable-slot-d clip-diagonal">Judo</div>
+                    <div class="timetable-slot-l clip-diagonal">Karate</div>
+                    <div class="timetable-slot-d clip-diagonal">Muay Thai</div>
+                    <div class="timetable-slot-fill clip-diagonal font-bold"> No Classes</div>
+                    <div class="timetable-slot-fill clip-diagonal font-bold"> No Classes</div>
                 </div>
 
                 <!-- sunday -->
@@ -171,26 +172,24 @@
                     <div class="bg-[#886551] text-white text-4xl h-32 rounded-tl-2xl rounded-br-4xl font-medium flex items-center justify-center">
                         Sunday
                     </div>
-                    <div class="timetable-slot-d">Jiu-Jitsu</div>
-                    <div class="timetable-slot-l">Muay Thai</div>
-                    <div class="timetable-slot-d">Private Tuition</div>
-                    <div class="timetable-slot-l">Open Mat</div>
-                    <div class="timetable-slot-d">Kids Jiu-Jitsu</div>
-                    <div class="timetable-slot-l">Karate</div>
-                    <div class="timetable-slot-d">Jiu-Jitsu</div>
+                    <div class="timetable-slot-d clip-diagonal ">Jiu-Jitsu</div>
+                    <div class="timetable-slot-l clip-diagonal">Muay Thai</div>
+                    <div class="timetable-slot-d clip-diagonal">Private Tuition</div>
+                    <div class="timetable-slot-l clip-diagonal">Open Mat</div>
+                    <div class="timetable-slot-d clip-diagonal">Kids Jiu-Jitsu</div>
+                    <div class="timetable-slot-l clip-diagonal">Karate</div>
+                    <div class="timetable-slot-d clip-diagonal">Jiu-Jitsu</div>
                 </div>
             </div>
         </section>
-
-        <hr class="h-[1px] w-full mt-12">
             
-        <footer>
-            <div class="flex flex-row gap-10 justify-center items-center my-16">
+        <footer class="bg-light-brown py-1">
+            <div class="flex flex-row gap-10 justify-center items-center py-16">
                 <div>
                     <h1 class="text-5xl">Embo<br> Martial<br> Arts</h1>
                 </div>
-                <hr class="bg-[#886551] h-70 w-[1px]">
-                <div    class="flex flex-col items-start">
+                <hr class="bg-black h-70 w-[1px]">
+                <div class="flex flex-col items-start">
                     <h1 class="text-2xl text-[#886551] mb-2">Discover</h1>
                     <ul>
                         <a><li>History</li></a>
@@ -199,7 +198,7 @@
                         <a><li>Statistics</li></a>
                     </ul>
                 </div>
-                <hr class="bg-[#886551] h-45 w-[1px]">
+                <hr class="bg-black h-45 w-[1px]">
                 <div>
                     <h1 class="text-2xl text-[#886551] mb-2">Contact</h1>
                     <ul>
@@ -211,7 +210,7 @@
                         <a><li>Instagram</li></a>
                     </ul>
                 </div>
-                <hr class="bg-[#886551] h-45 w-[1px]">
+                <hr class="bg-black h-45 w-[1px]">
                 <div>
                     <h1 class="text-2xl text-[#886551] mb-2">Other Infomation</h1>
                     <ul>

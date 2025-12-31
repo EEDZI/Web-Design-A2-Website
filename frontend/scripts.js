@@ -2,7 +2,12 @@
 function toggleSideNav() {
     const sideNav = document.getElementById("side-nav");
     sideNav.classList.toggle("translate-x-full");
+
 }
+// close side nav on escape key 
+document.addEventListener("keydown", e => {
+    if (e.key === "Escape") toggleSideNav();
+});
 
 //scroll fade animation
 document.addEventListener("DOMContentLoaded", () => {
