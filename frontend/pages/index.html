@@ -35,10 +35,7 @@
         </nav>
     </header>
 
-    <aside id="side-nav" class="fixed inset-0 bg-white/90 z-50
-         transform translate-x-full transition-transform duration-300 ease-in-out">
-
-        <!-- close menu x -->
+    <aside id="side-nav" class="fixed inset-0 bg-white/90 z-50 transform translate-x-full transition-transform duration-300 ease-in-out">
 
         <div class="flex h-full items-center justify-center">
             <div class="flex flex-col gap-10 text-4xl sm:text-5xl font-bold text-[#886551] items-center">
@@ -49,7 +46,8 @@
                 <a href="" class="cursor-pointer hover:text-black">Contact Us</a>
 
                 <button onclick="toggleSideNav()" class="p-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-16 mt-10 text-dark-brown cursor-pointer border-[2px] rounded-full p-2 hover:bg-[#f5e9e0]/50 transition-colors duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
+                        class="size-16 mt-10 text-dark-brown cursor-pointer border-[2px] rounded-full p-2 hover:bg-[#f5e9e0]/50 transition-colors duration-300">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
                     </svg>
                 </button>
@@ -72,10 +70,10 @@
         </div>
     </section>
 
-    <div class="mx-auto max-w-[1600px] px-12 lg:px-24 mt-32">
-        <h1 class="text-7xl font-thin">Our Martial Arts</h1>
-        <hr class="w-78 h-[1px] mt-4">
-    </div>
+    <section class="bg-light-brown py-32 text-center">
+            <h1 class="text-7xl font-thin text-[#3A2A22]">Our Martial Arts</h1>
+            <hr class="w-24 h-[2px] bg-[#886551] mx-auto my-6">
+    </section>
 
     <!-- card section -->
     <section class="relative overflow-hidden">
@@ -87,7 +85,7 @@
             <!-- card grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 xl:gap-x-56 gap-y-28 lg:gap-y-36">
                 <!-- karate -->
-                <div class="flex flex-col items-center text-center bg-[#f9fafc] border-[2px] border-[#E7E6EA] scroll-fade-up">
+                <div class="flex flex-col items-center text-center bg-[#f9fafc] border-[2px] border-[#E7E6EA] scroll-fade-up clip-diagonal">
                     <img src="../assets/wallpaper-3.jpg" alt="Karate" class="w-full h-80 object-cover shadow">
                     <hr class="bg-[#886551] h-2 w-full mb-8">
                     <h2 class="text-7xl font-thin mb-2">Karate</h2>
@@ -96,13 +94,13 @@
                         <p class="font-light italic text-4xl">Full Body Training & Discipline</p>
                         <p class="font-thin text-3xl">Focus on technique over strength Safe and beginner friendly</p>
                         <p class="font-thin text-3xl">Trainers: Mauricio Gome, Guy Victory</p>   
-                        <button class="px-10 py-4 mb-16 bg-[#886551] text-white rounded-full hover:bg-[#886551]/90 transition-colors duration-300 text-4xl font-thin">Explore</button> 
+                        <a href=services.html class="px-10 py-4 mb-16 bg-[#886551] text-white rounded-full hover:bg-[#886551]/90 transition-colors duration-300 text-4xl font-thin inline-block">Explore</a> 
                     </div>
                     <hr class="bg-[#886551] h-3 w-full border-0"> 
                 </div>
 
                 <!-- judo -->
-                <div class="flex flex-col items-center text-center bg-[#f9fafc] border-[2px] border-[#E7E6EA] scroll-fade-up">
+                <div class="flex flex-col items-center text-center bg-[#f9fafc] border-[2px] border-[#E7E6EA] scroll-fade-up clip-diagonal">
                     <img src="../assets/wallpaper-3.jpg" alt="Judo" class="w-full h-80 object-cover shadow">
                     <hr class="bg-[#886551] h-2 w-full mb-8">
                     <h2 class="text-7xl font-thin mb-2">Judo</h2>
@@ -111,13 +109,13 @@
                         <p class="font-light italic text-4xl">Throws, Grappling & Balance</p>
                         <p class="font-thin text-3xl">Focus on technique over strength Safe and beginner friendly</p>
                         <p class="font-thin text-3xl">Trainers: Mauricio Gome, Guy Victory</p> 
-                        <button class="px-10 py-4 mb-16 bg-[#886551] text-white rounded-full hover:bg-[#886551]/90 transition-colors duration-300 text-4xl font-thin">Explore</button>   
-                    </div>
+                        <a href="services.html" class="px-10 py-4 mb-16 bg-[#886551] text-white rounded-full hover:bg-[#886551]/90 transition-colors duration-300 text-4xl font-thin inline-block">Explore</a>   
+                    </div>                                                                                                                                                                                                                                                                                              
                     <hr class="bg-[#886551] h-3 w-full border-0"> 
                 </div>
 
                 <!-- jiu-jitsu -->
-                <div class="flex flex-col items-center text-center bg-[#f9fafc] border-[2px] border-[#E7E6EA] scroll-fade-up">
+                <div class="flex flex-col items-center text-center bg-[#f9fafc] border-[2px] border-[#E7E6EA] scroll-fade-up clip-diagonal">
                     <img src="../assets/wallpaper-3.jpg" alt="Jiu-Jitsu" class="w-full h-80 object-cover shadow">
                     <hr class="bg-[#886551] h-2 w-full mb-8">
                     <h2 class="text-6xl font-thin mb-2">Jiu-Jitsu</h2>
@@ -126,13 +124,15 @@
                         <p class="font-light italic text-4xl">Defence & Submissions</p>
                         <p class="font-thin text-3xl">High-intensity cardio, Perfect for fitness and conditioning</p>
                         <p class="font-thin text-3xl">Trainers: Mauricio Gome, Guy Victory</p> 
-                        <button class="px-10 py-4 mb-16 bg-[#886551] text-white rounded-full hover:bg-[#886551]/90 transition-colors duration-300 text-4xl font-thin">Explore</button>
+                        <a href="services.html" class="px-10 py-4 mb-16 bg-[#886551] text-white rounded-full hover:bg-[#886551]/90 transition-colors duration-300 text-4xl font-thin inline-block">
+                            Explore
+                        </a>
                     </div>
                     <hr class="bg-[#886551] h-3 w-full border-0"> 
                 </div>
 
                 <!-- muay thai -->
-                <div class="flex flex-col items-center text-center bg-[#f9fafc] border-[2px] border-[#E7E6EA] scroll-fade-up">
+                <div class="flex flex-col items-center text-center bg-[#f9fafc] border-[2px] border-[#E7E6EA] scroll-fade-up clip-diagonal">
                     <img src="../assets/wallpaper-3.jpg" alt="Muay Thai" class="w-full h-80 object-cover shadow">
                     <hr class="bg-[#886551] h-2 w-full mb-8">
                     <h2 class="text-6xl font-thin mb-2">Muay Thai</h2>
@@ -141,7 +141,7 @@
                         <p class="font-light italic text-4xl">Punches, Kicks, & Elbows</p>
                         <p class="font-thin text-3xl">Great for self-defence, Learn real-world grappling skills</p>
                         <p class="font-thin text-3xl">Trainers: Mauricio Gome, Guy Victory</p> 
-                        <button class="px-10 py-4 mb-16 bg-[#886551] text-white rounded-full hover:bg-[#886551]/90 transition-colors duration-300 text-4xl font-thin">Explore</button>
+                        <a href=services.html class="px-10 py-4 mb-16 bg-[#886551] text-white rounded-full hover:bg-[#886551]/90 transition-colors duration-300 text-4xl font-thin inline-block">Explore</a>
                     </div>
                     <hr class="bg-[#886551] h-3 w-full border-0"> 
                 </div>

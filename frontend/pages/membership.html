@@ -58,7 +58,7 @@
 
 
     <main>
-        <section class="bg-light-brown flex flex-col md:flex-row max-w-[2000px] mx-auto items-stretch">
+        <section class="bg-light-brown flex flex-col md:flex-row max-w-[90%] mx-auto items-stretch">
         <div class="w-full md:w-2/5 flex flex-col justify-center text-center px-12">
             <h1 class="text-7xl font-thin text-[#3A2A22]"> Memberships & Pricing</h1>
             <hr class="w-24 h-[2px] bg-[#886551] mx-auto my-6 border-0">
@@ -75,7 +75,7 @@
 
                 <!-- basic card-->
                 <!--  icons - https://www.piliapp.com/symbol/bullet-point/-->
-                <div class="bg-light-brown p-10 h-full rounded-tl-2xl rounded-br-3xl flex flex-col hover:scale-110 transition-all duration-300">
+                <div class="bg-light-brown p-10 h-full clip-diagonal flex flex-col hover:scale-110 transition-all duration-300">
                     <h2 class="text-4xl font-medium mb-4">Basic</h2>
                     <p class="text-5xl font-semibold mb-6">£25<span class="text-xl font-light">/month</span></p>
                     <ul class="space-y-4 text-xl text-[#3A2A22] flex-grow">
@@ -83,13 +83,13 @@
                         <li>2 sessions per week</li>
                         <li>Gym access during class times</li>
                     </ul>
-                    <button class="mt-10 bg-[#886551] text-white py-3 rounded-full text-xl hover:bg-[#886551]/90 transition">
+                    <button class="mt-10 bg-[#886551] text-white py-3 rounded-full text-xl cursor-pointer hover:bg-[#886551]/90 transition">
                         Join Now
                     </button>
                 </div>
 
                 <!-- intermediate  card -->
-                <div class="bg-light-brown p-10 rounded-tl-2xl rounded-br-3xl flex flex-col hover:scale-110 transition-all duration-300">
+                <div class="bg-light-brown p-10 clip-diagonal flex flex-col hover:scale-110 transition-all duration-300">
                     <h2 class="text-4xl font-medium mb-4">Intermediate</h2>
                     <p class="text-5xl font-semibold mb-6">£35<span class="text-xl font-light">/month</span></p>
                     <ul class="space-y-4 text-xl flex-grow">
@@ -97,13 +97,13 @@
                         <li>3 sessions per week</li>
                         <li>Open mat access</li>
                     </ul>
-                    <button class="mt-10 bg-[#886551] text-white py-3 rounded-full text-xl cursor-pointer hover:bg-[#886551]/80 transition">
+                    <button class="mt-10 bg-[#886551] text-white py-3 rounded-full text-xl cursor-pointer hover:bg-[#886551]/90 transition">
                         Join Now
                     </button>
                 </div>
 
                 <!-- advanced card -->
-                <div class="bg-light-brown p-10 rounded-tl-2xl rounded-br-3xl flex flex-col hover:scale-110 transition-all duration-300">
+                <div class="bg-light-brown p-10 clip-diagonal flex flex-col hover:scale-110 transition-all duration-300">
                     <h2 class="text-4xl font-medium mb-4">Advanced</h2>
                     <p class="text-5xl font-semibold mb-6">£45<span class="text-xl font-light">/month</span></p>
                     <ul class="space-y-4 text-xl flex-grow">
@@ -111,13 +111,13 @@
                         <li>5 sessions per week</li>
                         <li>Open mat included</li>
                     </ul>
-                    <button class="mt-10 bg-[#886551] text-white py-3 rounded-full text-xl">
+                    <button class="mt-10 bg-[#886551] text-white py-3 rounded-full text-xl cursor-pointer hover:bg-[#886551]/90 transition">
                         Join Now
                     </button>
                 </div>
 
                 <!-- elite card -->
-                <div class="bg-dark-brown text-white p-10 rounded-tl-2xl rounded-br-3xl flex flex-col scale-105 hover:scale-110 transition-all duration-300">
+                <div class="bg-dark-brown text-white p-10 clip-diagonal flex flex-col scale-105 hover:scale-110 hover:transition-all duration-300">
                     <h2 class="text-4xl font-medium mb-4">Elite</h2>
                     <p class="text-5xl font-semibold mb-6">£60<span class="text-xl font-light">/month</span></p>
                     <ul class="space-y-4 text-xl flex-grow">
@@ -125,20 +125,20 @@
                         <li>All martial arts</li>
                         <li>Priority booking</li>
                     </ul>
-                    <button class="mt-10 bg-white text-[#886551] py-3 rounded-full text-xl font-medium">
+                    <button class="mt-10 bg-white text-[#886551] py-3 rounded-full text-xl cursor-pointer hover:scale-105 transition">
                         Go Elite
                     </button>
                 </div>
             </div>
         </section>
 
-        <section class="bg-white py-32">
+        <section class="bg-white mb-32 mt-12">
             <div class="max-w-[1200px] mx-auto px-12 grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div class="bg-light-brown p-10 clip-diagonal flex flex-col hover:scale-105 transition-all duration-300">
-                    <h2 class="text-4xl font-medium mb-4">Kids Tutition</h2>
+                    <h2 class="text-4xl font-medium mb-4">Junior Tutition</h2>
                     <p class="text-5xl font-semibold mb-6">£60<span class="text-xl font-light">/month</span></p>
                     <p class="text-xl">Access to all kids-only martial arts sessions.</p>
-                    <button class="mt-10 bg-[#886551] text-white py-3 rounded-full text-xl">
+                    <button class="mt-10 bg-[#886551] text-white py-3 rounded-full text-xl cursor-pointer hover:bg-[#886551]/90 transition">
                         Join Now
                     </button>
                 </div>
@@ -147,19 +147,27 @@
                     <h2 class="text-4xl font-medium mb-4">Private Tuition</h2>
                     <p class="text-5xl font-semibold mb-6">£15<span class="text-xl">/hour</span></p>
                     <p class="text-xl">One-to-one coaching tailored to your goals.</p>
-                    <button class="mt-10 bg-[#886551] text-white py-3 rounded-full text-xl p-3">
+                    <button class="mt-10 bg-[#886551] text-white py-3 rounded-full text-xl cursor-pointer hover:bg-[#886551]/90 transition">
                         Book Now
                     </button>
                 </div>
             </div>
         </section>
         
-        <section class="bg-light-brown py-20">
-            <div class="max-w-5xl mx-auto text-center text-xl grid grid-cols-2 md:grid-cols-4 gap-8">
-                <div>Beginner Friendly</div>
-                <div>Flexible Scheduling</div>
-                <div>Expert Coaches</div>
-                <div>No Long Contracts</div>
+        <section class="bg-dark-brown py-20">
+            <div class="max-w-7xl mx-auto text-white text-xl flex justify-center items-center gap-12 relative">
+
+                <span>Beginner Friendly</span>
+                <span class="w-2 h-2 rounded-full bg-white"></span>
+
+                <span>Flexible Scheduling</span>
+                <span class="w-2 h-2 rounded-full bg-white"></span>
+
+                <span>Expert Coaches</span>
+                <span class="w-2 h-2 rounded-full bg-white"></span>
+
+                <span>No Long Contracts</span>
+
             </div>
         </section>
     </main>
