@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Membership | EMA</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,30 +35,29 @@
         </nav>
     </header>
 
-    <aside id="side-nav" class="fixed inset-0 bg-white/85 z-50
-         transform translate-x-full transition-transform duration-300 ease-in-out">
-
-        <!-- close menu x -->
-        <button onclick="toggleSideNav()" class="absolute top-4 right-4 p-2">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-dark-brown cursor-pointer">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-            </svg>
-        </button>
+    <aside id="side-nav" class="fixed inset-0 bg-white/90 z-50 transform translate-x-full transition-transform duration-500 ease-in-out">
 
         <div class="flex h-full items-center justify-center">
-            <div class="flex flex-col gap-10 text-4xl sm:text-5xl font-bold text-dark-brown items-center">
+            <div class="flex flex-col gap-10 text-4xl sm:text-5xl font-bold text-[#886551] items-center">
                 <a href="services.html" class="cursor-pointer hover:text-black">Our Services</a>
-                <a href="" class="cursor-pointer hover:text-black">Memberships & Pricing</a>
+                <a href="membership.html" class="cursor-pointer hover:text-black">Memberships & Pricing</a>
                 <a href="timetable.html" class="cursor-pointer hover:text-black">Class Timetable</a>
                 <a href="" class="cursor-pointer hover:text-black">Gallery & Our Story</a>
-                <a href="" class="cursor-pointer hover:text-black">Contact Us</a>
+                <a href="contact.html" class="cursor-pointer hover:text-black">Contact Us</a>
+
+                <button onclick="toggleSideNav()" class="p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
+                        class="size-16 mt-10 text-dark-brown cursor-pointer border-[2px] rounded-full p-2 hover:bg-[#f5e9e0]/50 transition-colors duration-300">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>
+                </button>
             </div>
         </div>
     </aside>
 
 
     <main>
-        <section class="bg-light-brown flex flex-col md:flex-row max-w-[90%] mx-auto items-stretch">
+        <section class="bg-light-brown flex flex-col md:flex-row max-w-[90%] mx-auto items-stretch rounded-b-3xl">
         <div class="w-full md:w-2/5 flex flex-col justify-center text-center px-12">
             <h1 class="text-7xl font-thin text-[#3A2A22]"> Memberships & Pricing</h1>
             <hr class="w-24 h-[2px] bg-[#886551] mx-auto my-6 border-0">
@@ -66,7 +65,7 @@
                 Flexible membership plans designed for beginners, advanced athletes, and families.
             </p>
         </div>
-        <img src="../assets/Karate image.webp" alt="Martial Arts Training" class="w-full md:w-3/5 object-cover clip-diagonal-large">
+        <img src="../assets/Karate image.webp" alt="Martial Arts Training" class="w-full md:w-3/5 object-cover clip-diagonal-large rounded-b-3xl">
     </section>
 
         
@@ -133,6 +132,8 @@
         </section>
 
         <section class="bg-white mb-32 mt-12">
+            <h1>Tuition</h1>
+            <hr class="">
             <div class="max-w-[1200px] mx-auto px-12 grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div class="bg-light-brown p-10 clip-diagonal flex flex-col hover:scale-105 transition-all duration-300">
                     <h2 class="text-4xl font-medium mb-4">Junior Tutition</h2>

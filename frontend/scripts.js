@@ -26,3 +26,24 @@ document.addEventListener("DOMContentLoaded", () => {
     );
     element.forEach(el => observer.observe(el));
 });
+
+
+
+
+const mainHeader = document.getElementById("mainHeader");
+const overlayHeader = document.getElementById("overlayHeader");
+
+function handleScroll() {
+    if (window.scrollY === 0) {
+        // At top
+        mainHeader.classList.add("-translate-y-full", "opacity-0");
+        overlayHeader.classList.remove("opacity-0");
+    } else {
+        // Scrolled
+        mainHeader.classList.remove("-translate-y-full", "opacity-0");
+        overlayHeader.classList.add("opacity-0");
+    }
+}
+
+window.addEventListener("scroll", handleScroll);
+handleScroll();
