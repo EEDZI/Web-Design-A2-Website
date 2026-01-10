@@ -4,6 +4,7 @@ function toggleSideNav() {
     sideNav.classList.toggle("translate-x-full");
 
 }
+
 // close side nav on escape key 
 document.addEventListener("keydown", e => {
     if (e.key === "Escape") toggleSideNav();
@@ -26,6 +27,18 @@ document.addEventListener("DOMContentLoaded", () => {
     );
     element.forEach(el => observer.observe(el));
 });
+
+//Account toggle
+
+function showSignup() {
+    document.getElementById("loginForm").classList.add("hidden");
+    document.getElementById("signupForm").classList.remove("hidden");
+}
+
+function showLogin() {
+    document.getElementById("signupForm").classList.add("hidden");
+    document.getElementById("loginForm").classList.remove("hidden");
+}
 
 
 
