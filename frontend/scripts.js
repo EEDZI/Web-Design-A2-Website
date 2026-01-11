@@ -30,12 +30,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //Account toggle
 
-function showSignup() {
+function toggleSignup() {
     document.getElementById("loginForm").classList.add("hidden");
     document.getElementById("signupForm").classList.remove("hidden");
 }
 
-function showLogin() {
+function toggleLogin() {
     document.getElementById("signupForm").classList.add("hidden");
     document.getElementById("loginForm").classList.remove("hidden");
 }
